@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, fireEvent, screen } from '@testing-library/react';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
-import ForgotUserIdPage from '../pages/ForgotUserIdPage'; // Assuming this is the component for the Forgot User ID page
+import ForgotUserIdPage from '../pages/ForgotUserIdPage';
 
 
 test('TC-UR-1 : Verify the correct display of all required fields on the "Forgot User ID" page', () => {
